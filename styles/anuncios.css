@@ -1,8 +1,9 @@
 /* Estilos anuncios*/
 
 .anuncios{
-    z-index: -1;
-    padding-top: 80%;
+    position: absolute;
+    z-index: 6;
+    top: 100%;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
