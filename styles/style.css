@@ -35,7 +35,7 @@ body {
     top: 85px;
     left: 50%;
     transform: translateX(-50%); /* Centra horizontalmente */
-    z-index: 1; /* Asegura que esté debajo del slider */
+    z-index: 2; /* Asegura que esté debajo del slider */
 }
 
 .navbar-secondary {
@@ -159,7 +159,6 @@ body {
     gap: 15px; /* Ajusta el espacio entre los íconos de redes sociales */
     justify-content: center; /* Centra los íconos dentro del contenedor */
 }
-
 .redes a {
     display: inline-flex;
     align-items: center;
@@ -188,7 +187,7 @@ body {
     top: 0; /* Coloca el slider en la parte superior */
     left: 0; /* Coloca el slider en el borde izquierdo */
     width: 100%; /* Ocupa todo el ancho */
-    z-index: 2; /* Asegura que el slider esté por encima de la navbar */
+    z-index: 3; /* Asegura que el slider esté por encima de la navbar */
 }
 
 .slider::before,
@@ -361,4 +360,3 @@ body {
     opacity: 0.5;
     transition: filter 0.3s, opacity 0.3s;
 }
-
