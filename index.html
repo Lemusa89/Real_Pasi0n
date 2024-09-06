@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de Fútbol</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/slider.css">
+    <link rel="stylesheet" href="./styles/anuncios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- Agrega contenido de encabezado aquí si es necesario -->
+    </header>
+
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="./img/adidas.png" height="100" width="250" alt="Sponsor 1" />
+            </div>
+            <div class="slide">
+                <img src="./img/cocacola.png" height="100" width="250" alt="Sponsor 2" />
+            </div>
+            <div class="slide">
+                <img src="./img/flyE.png" height="100" width="250" alt="Sponsor 3" />
+            </div>
+            <div class="slide">
+                <img src="./img/getorade.png" height="100" width="250" alt="Sponsor 4" />
+            </div>
+            <div class="slide">
+                <img src="./img/nike.png" height="100" width="250" alt="Sponsor 5" />
+            </div>
+            <div class="slide">
+                <img src="./img/puma.png" height="100" width="250" alt="Sponsor 6" />
+            </div>
+            <div class="slide">
+                <img src="./img/qatarA.png" height="100" width="250" alt="Sponsor 7" />
+            </div>
+            <div class="slide">
+                <img src="./img/spotify.png" height="100" width="250" alt="Sponsor 1" />
+            </div>
+            <div class="slide">
+                <img src="./img/adidas.png" height="100" width="250" alt="Sponsor 2" />
+            </div>
+            <div class="slide">
+                <img src="./img/cocacola.png" height="100" width="250" alt="Sponsor 3" />
+            </div>
+            <div class="slide">
+                <img src="./img/flyE.png" height="100" width="250" alt="Sponsor 4" />
+            </div>
+            <div class="slide">
+                <img src="./img/getorade.png" height="100" width="250" alt="Sponsor 5" />
+            </div>
+            <div class="slide">
+                <img src="./img/nike.png" height="100" width="250" alt="Sponsor 6" />
+            </div>
+            <div class="slide">
+                <img src="./img/puma.png" height="100" width="250" alt="Sponsor 7" />
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="navbar">
+        <img class="logo" src="./img/logo (1).png" alt="Logo">
+        <span class="text-1">REAL</span>
+        <span class="text-2">PASION</span>
+        <div class="btns-lg">
+            <button type="button" class="login">Ingresar</button>
+            <button type="button" class="register">Unirse</button>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100063746286057&mibextid=ZbWKwL"><i class="fa-brands fa-facebook fa-xl"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-xl"></i></a>
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter fa-xl"></i></a>
+        </div>
+
+    <!-- Navbar secundaria -->
+    <div class="navbar-secondary">
+        <a href="#" class="nav-item1">Quiénes Somos</a>
+        <a href="#" class="nav-item2">Qué Hacemos</a>
+        <a href="#" class="nav-item1">Multimedia</a>
+        <a href="#" class="nav-item2">Tienda</a>
+    </div>
+    </div>
+
+
+<!-- Contenedor de anuncios -->
+<div class="anuncios-container">
+    <div class="anuncio">
+        <p>Anuncio 1: Descuento en productos</p>
+        <div class="anuncio-actions">
+            <a href="#" class="ver-mas" data-anuncio="1">Ver más</a>
+            <span class="cerrar-anuncio">x</span>
+        </div>
+    </div>
+    <div class="anuncio">
+        <p>Anuncio 2: Nueva temporada</p>
+        <div class="anuncio-actions">
+            <a href="#" class="ver-mas" data-anuncio="2">Ver más</a>
+            <span class="cerrar-anuncio">x</span>
+        </div>
+    </div>
+    <div class="anuncio">
+        <p>Anuncio 3: Nueva temporada</p>
+        <div class="anuncio-actions">
+            <a href="#" class="ver-mas" data-anuncio="3">Ver más</a>
+            <span class="cerrar-anuncio">x</span>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="cerrar-modal">&times;</span>
+        <h2 id="modal-title">Título del Anuncio</h2>
+        <p id="modal-text">Aquí va la descripción detallada del anuncio.</p>
+    </div>
+</div>  
+
+    <div class="container-principal">
+        <div class="contenedor-slider">
+            <ul class='slider-p'>
+                <li class='item' style="background-image: url('https://cdn.mos.cms.futurecdn.net/dP3N4qnEZ4tCTCLq59iysd.jpg')">
+                  <div class='content'>
+                    <h2 class='title'>"Lossless Youths"</h2>
+                    <p class='description'> Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+                    praesentium nisi. Id laboriosam ipsam enim.  </p>
+                    <button>Read More</button>
+                  </div>
+                </li>
+                <li class='item' style="background-image: url('https://i.redd.it/tc0aqpv92pn21.jpg')">
+                  <div class='content'>
+                    <h2 class='title'>"Estrange Bond"</h2>
+                    <p class='description'> Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+                    praesentium nisi. Id laboriosam ipsam enim.  </p>
+                    <button>Read More</button>
+                  </div>
+                </li>
+                <li class='item' style="background-image: url('https://wharferj.files.wordpress.com/2015/11/bio_north.jpg')">
+                  <div class='content'>
+                    <h2 class='title'>"The Gate Keeper"</h2>
+                    <p class='description'> Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+                    praesentium nisi. Id laboriosam ipsam enim.  </p>
+                    <button>Read More</button>
+                  </div>
+                </li>
+                <li class='item' style="background-image: url('https://images7.alphacoders.com/878/878663.jpg')">
+                  <div class='content'>
+                    <h2 class='title'>"Last Trace Of Us"</h2>
+                    <p class='description'>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
+                    </p>
+                    <button>Read More</button>
+                  </div>
+                </li>
+                <li class='item' style="background-image: url('https://theawesomer.com/photos/2017/07/simon_stalenhag_the_electric_state_6.jpg')">
+                  <div class='content'>
+                    <h2 class='title'>"Urban Decay"</h2>
+                    <p class='description'>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
+                    </p>
+                    <button>Read More</button>
+                  </div>
+                </li>
+                <li class='item' style="background-image: url('https://da.se/app/uploads/2015/09/simon-december1994.jpg')">
+                  <div class='content'>
+                    <h2 class='title'>"The Migration"</h2>
+                    <p class='description'> Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+                    praesentium nisi. Id laboriosam ipsam enim.  </p>
+                    <button>Read More</button>
+                  </div>
+                </li>
+              </ul>
+              <nav class='nav'>
+                <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+                <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+              </nav>
+        
+        </div>
+        <div class="anuncios">            
+            <figure class="snip1584"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample87.jpg" alt="sample87"/>
+                <figcaption>
+                <h3>Burgundy Flemming</h3>
+                <h5>Advertising</h5>
+                </figcaption><a href="#"></a>
+            </figure>
+            <figure class="snip1584 hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample119.jpg" alt="sample119"/>
+                <figcaption>
+                <h3>Nigel Nigel</h3>
+                <h5>Sound &amp; Vision</h5>
+                </figcaption><a href="#"></a>
+            </figure>
+            <figure class="snip1584"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample120.jpg" alt="sample120"/>
+                <figcaption>
+                <h3>Caspian Bellevedere</h3>
+                <h5>Accounting</h5>
+                </figcaption><a href="#"></a>
+            </figure>
+        </div>
+        <div class="contenedor-secundario">
+            <div class="contenedor-seccion">
+                <div class="navbar-secundario">
+                    <h3>Seleccion mayores</h3>
+                    <h3>Seleccion Femenina</h3>
+                    <h3>Seleccion Juvenil</h3>
+                    <h3>Seleccion infantil</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="//code.tidio.co/cd9idsnl8zurs84ssnqwddklfirlcyzc.js" async></script>
+    <script src="./scripts/anuncios.js"></script>
+    <!-- Scripts slider-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./scripts/slider.js"></script>
+    <!-- Scripts anuncio separadores -->
+    <script src="./scripts/ads.js"></script>
+</body>
+
+</html>
